@@ -1,0 +1,47 @@
+.swiper-1 {
+  background: gray;
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-1 .swiper-button-prev,
+.swiper-1 .swiper-button-next {
+  z-index: 999;
+}
+
+.swiper-1 .swiper-pagination-bullet {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+}
+
+.swiper-1 .swiper-button-next::after,
+.swiper-1 .swiper-button-prev::after {
+  content: "";
+} /* This hides the default navigation icons */
+
+.swiper-1 .swiper-button-prev,
+.swiper-1 .swiper-button-next {
+  width: 50px;
+  height: 50px;
+  background-image: url("public/arrow-left.svg");
+}
+
+.swiper-1 .swiper-button-next {
+  background-image: url("public/arrow-right.svg");
+}
+
+.swiper-1 .swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: 0;
+  height: 10px;
+  border-radius: 0;
+}
+.swiper-1 .swiper-scrollbar-drag {
+  background: yellow;
+}
+
+.swiper-2 {
+  background: brown;
+  width: 600px;
+  height: 300px;
+}
